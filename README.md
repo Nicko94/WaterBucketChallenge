@@ -3,16 +3,16 @@ This API provides a solution to the classic water bucket challenge in which the 
 
 The project consists of three primary layers:
 
-1. API Layer: Handles incoming requests (WaterBucketController).
+1. **API Layer:** Handles incoming requests (WaterBucketController).
 
-2. Application Layer: Contains services and DTOs for request/response handling.
+2. **Application Layer:** Contains Services and DTOs for Request/Response handling.
 
-3. Domain layer: Includes the Node entity to represent the state in each step.
+3. **Domain layer:** Includes the Node entity to represent the state in each step.
 
 
 ## Features
 - Solve the water bucket challenge with two buckets and a target amount.
-- Returns detailed steps in the solution path or errors when invalid inputs are provided.
+- Returns detailed steps in the solution path with the flag **"Solved"**.
 - Error handling for edge cases like when there's no solution possible or the input values are invalid.
 - Swagger is integrated for seamless testing.
 
@@ -21,7 +21,6 @@ The project consists of three primary layers:
 2. How to Run
 3. API Endpoints
 4. Algorithm explanation
-5. Example Requests and Responses
 
 ## Setup
 
@@ -36,9 +35,14 @@ git clone https://github.com/Nicko94/WaterBucketChallenge.git
 cd WaterBucketChallenge
 ```
 3. Restore the dependencies:
-   dotnet restore
-4. Build the project
-   dotnet build
+
+```
+dotnet restore
+```
+5. Build the project
+```
+dotnet build
+```
    
 ## How to Run
 1. Navigate to the project's directory:
@@ -47,8 +51,8 @@ cd WaterBucketChallenge
    dotnet run
 3. The API will run on http://localhost:5000. You can now send request using Swagger or similar tools like Postman
 
-# API Endpoints
-## POST /solve
+## API Endpoints
+### POST /solve
 
 This endpoint solves the water bucket problem for the given bucket sizes and target volume.
 
