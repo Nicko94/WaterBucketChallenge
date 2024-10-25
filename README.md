@@ -1,6 +1,6 @@
-Water Bucket Challenge RESTful API
+#Water Bucket Challenge RESTful API
 
-Overview
+##Overview
 This API provides a solution to the classic water bucket challenge in which the task is to measure a target amount of water by filling, transferring and emptying two water buckets of a given capacity, ideally with the least amount of steps possible.
 
 The project consists of three primary layers:
@@ -12,7 +12,7 @@ The project consists of three primary layers:
 3 Domain layer: Includes the Node entity to represent the state in each step.
 
 
-Features
+##Features
 - Solve the water bucket challenge with two buckets and a target amount.
 - Returns detailed steps in the solution path or errors when invalid inputs are provided.
 - Error handling for edge cases like when there's no solution possible or the input values are invalid.
@@ -32,8 +32,8 @@ Prerequisites
 
 Installation
 1. Clone the repository
-   git clone https://github.com/Nicko94/WaterBucketChallenge.git
-   cd WaterBucketChallenge
+   "git clone https://github.com/Nicko94/WaterBucketChallenge.git
+   cd WaterBucketChallenge"
 2. Restore the dependencies:
    dotnet restore
 3. Build the project
