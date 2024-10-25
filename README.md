@@ -48,8 +48,10 @@ dotnet build
 1. Navigate to the project's directory:
    cd WaterBucketChallenge.API
 2. Start the API:
-   dotnet run
-3. The API will run on http://localhost:5000. You can now send request using Swagger or similar tools like Postman
+```
+dotnet run
+```
+4. The API will run on http://localhost:5000. You can now send request using Swagger or similar tools like Postman
 
 ## API Endpoints
 ### POST /solve
