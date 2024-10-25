@@ -1,0 +1,6 @@
+C:\Users\gabe6\source\repos\WaterBucketChallenge\WaterBucketChallenge.Domain\bin\Debug\WaterBucketChallenge.Domain.dll
+C:\Users\gabe6\source\repos\WaterBucketChallenge\WaterBucketChallenge.Domain\bin\Debug\WaterBucketChallenge.Domain.pdb
+C:\Users\gabe6\source\repos\WaterBucketChallenge\WaterBucketChallenge.Domain\obj\Debug\WaterBucketChallenge.Domain.csproj.AssemblyReference.cache
+C:\Users\gabe6\source\repos\WaterBucketChallenge\WaterBucketChallenge.Domain\obj\Debug\WaterBucketChallenge.Domain.csproj.CoreCompileInputs.cache
+C:\Users\gabe6\source\repos\WaterBucketChallenge\WaterBucketChallenge.Domain\obj\Debug\WaterBucketChallenge.Domain.dll
+C:\Users\gabe6\source\repos\WaterBucketChallenge\WaterBucketChallenge.Domain\obj\Debug\WaterBucketChallenge.Domain.pdb
