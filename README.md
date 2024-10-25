@@ -16,7 +16,7 @@ The project consists of three primary layers:
 - Error handling for edge cases like when there's no solution possible or the input values are invalid.
 - Swagger is integrated for seamless testing.
 
-Table of contents
+### Table of contents
 1. Setup
 2. How to Run
 3. API Endpoints
@@ -83,9 +83,6 @@ This endpoint solves the water bucket problem for the given bucket sizes and tar
 }
 ```
 
-```
-```
-
  ## Algorithm Explanation
 
 The algorithm uses a **Breadth-First Search (BFS)** approach to explore all possible states of the two buckets. Each state is represented by a Node object containing:
@@ -94,7 +91,7 @@ The algorithm uses a **Breadth-First Search (BFS)** approach to explore all poss
 - Operation: Specific action taken to reach the current state ("Fill bucket X")
 
 # Steps of the algorithm
-1. **Initialize** Start with both buckets empty.
+1. **Initialize:** Start with **both** buckets empty.
 2. **Explore States:** In each step, apply all possible actions:
    - Fill bucket X or Y.
    - Empty bucket X or Y
@@ -103,8 +100,6 @@ The algorithm uses a **Breadth-First Search (BFS)** approach to explore all poss
 4. **Terminate:**
    - If the target amount is found in either bucket at any point of execution, return the solution path.
    - If no solution is found within the specified limit, return an error response.
-
-EXAMPLES:
 
 ## Conclusion
 
