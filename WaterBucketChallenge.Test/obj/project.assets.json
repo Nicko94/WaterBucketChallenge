@@ -987,11 +987,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\licas\\Desktop\\ENTREVISTA NICO\\h\\WaterBucketChallenge\\WaterBucketChallenge.Test\\WaterBucketChallenge.Test.csproj",
+      "projectUniqueName": "C:\\Users\\licas\\Desktop\\ENTREVISTA NICO\\Doc\\WaterBucketChallenge\\WaterBucketChallenge.Test\\WaterBucketChallenge.Test.csproj",
       "projectName": "WaterBucketChallenge.Test",
-      "projectPath": "C:\\Users\\licas\\Desktop\\ENTREVISTA NICO\\h\\WaterBucketChallenge\\WaterBucketChallenge.Test\\WaterBucketChallenge.Test.csproj",
+      "projectPath": "C:\\Users\\licas\\Desktop\\ENTREVISTA NICO\\Doc\\WaterBucketChallenge\\WaterBucketChallenge.Test\\WaterBucketChallenge.Test.csproj",
       "packagesPath": "C:\\Users\\licas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\licas\\Desktop\\ENTREVISTA NICO\\h\\WaterBucketChallenge\\WaterBucketChallenge.Test\\obj\\",
+      "outputPath": "C:\\Users\\licas\\Desktop\\ENTREVISTA NICO\\Doc\\WaterBucketChallenge\\WaterBucketChallenge.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\licas\\AppData\\Roaming\\NuGet\\NuGet.Config",

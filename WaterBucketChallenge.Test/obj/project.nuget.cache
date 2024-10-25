@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R/QlQUREDQk=",
+  "dgSpecHash": "XWddIT3ItoI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\licas\\Desktop\\ENTREVISTA NICO\\h\\WaterBucketChallenge\\WaterBucketChallenge.Test\\WaterBucketChallenge.Test.csproj",
+  "projectFilePath": "C:\\Users\\licas\\Desktop\\ENTREVISTA NICO\\Doc\\WaterBucketChallenge\\WaterBucketChallenge.Test\\WaterBucketChallenge.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\licas\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\licas\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

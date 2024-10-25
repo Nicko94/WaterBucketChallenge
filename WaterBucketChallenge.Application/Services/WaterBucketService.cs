@@ -23,7 +23,7 @@ namespace WaterBucketChallenge.Application.Services
 
         public WaterBucketBaseResponseDto Solve(int XCapacity, int YCapacity, int ZTarget)
         {
-            Console.WriteLine($"(X, Y, Z) = ({XCapacity}, {YCapacity}, {ZTarget})");
+            //Console.WriteLine($"(X, Y, Z) = ({XCapacity}, {YCapacity}, {ZTarget})");
 
             try
             {
@@ -36,20 +36,21 @@ namespace WaterBucketChallenge.Application.Services
                     {
                         var step = path[i];
                         
-                        Console.WriteLine($"Step: {i}, BucketX: {step.X}, BucketY: {step.Y}, action: {step.Operation}");
+                        //Console.WriteLine($"Step: {i}, BucketX: {step.X}, BucketY: {step.Y}, action: {step.Operation}");
 
                         steps.Add(new WaterBucketStepDto
                         {
                             StepNumber = i,
                             BucketX = step.X,
                             BucketY = step.Y,
-                            Action = step.Operation
+                            Action = step.Operation,
+                            Status = (i == path.Count - 1) ? "Solved" : null // Adding status field only in the last step
                         });
                     }
                 }
                 else
                 {
-                    Console.WriteLine("No solution");
+                    //Console.WriteLine("No solution");
                     return new WaterBucketNoSolutionResponseDto() { solution = "No solution" };
                 }
                 return new WaterBucketSuccessResponseDto() { solution = steps };

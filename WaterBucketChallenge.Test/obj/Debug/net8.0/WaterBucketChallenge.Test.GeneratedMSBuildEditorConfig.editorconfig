@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WaterBucketChallenge.Test
-build_property.ProjectDir = C:\Users\licas\Desktop\ENTREVISTA NICO\h\WaterBucketChallenge\WaterBucketChallenge.Test\
+build_property.ProjectDir = C:\Users\licas\Desktop\ENTREVISTA NICO\Doc\WaterBucketChallenge\WaterBucketChallenge.Test\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

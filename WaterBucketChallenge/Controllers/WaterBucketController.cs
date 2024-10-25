@@ -10,7 +10,6 @@ namespace WaterBucketChallenge.API.Controllers
 
         private readonly IWaterBucketService _solver;
 
-        //ver DI inyeccion de dependencias porque se usa y porque es mejor que private readonly WaterJugSolver _solver = new();
         public WaterBucketController(IWaterBucketService solver)
         {
             _solver = solver;

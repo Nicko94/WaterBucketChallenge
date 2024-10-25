@@ -6,5 +6,6 @@
         public int BucketX { get; set; }
         public int BucketY { get; set; }
         public string Action { get; set; }
+        public string Status { get; set; }
     }
 }
