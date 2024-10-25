@@ -32,13 +32,15 @@ Prerequisites
 
 Installation
 1. Clone the repository
-   "git clone https://github.com/Nicko94/WaterBucketChallenge.git
-   cd WaterBucketChallenge"
-2. Restore the dependencies:
+```
+git clone https://github.com/Nicko94/WaterBucketChallenge.git
+cd WaterBucketChallenge
+```
+3. Restore the dependencies:
    dotnet restore
-3. Build the project
+4. Build the project
    dotnet build
-
+   
 How to Run
 1. Navigate to the project's directory:
    cd WaterBucketChallenge.API
