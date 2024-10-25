@@ -31,17 +31,17 @@ Prerequisites:
 Installation:
 1. Clone the repository
 ```
-git clone https://github.com/Nicko94/WaterBucketChallenge.git
-cd WaterBucketChallenge
+$ git clone https://github.com/Nicko94/WaterBucketChallenge.git
+$ cd WaterBucketChallenge
 ```
 3. Restore the dependencies:
 
 ```
-dotnet restore
+$ dotnet restore
 ```
 5. Build the project
 ```
-dotnet build
+$ dotnet build
 ```
    
 ## How to Run
@@ -49,7 +49,7 @@ dotnet build
    cd WaterBucketChallenge.API
 2. Start the API:
 ```
-dotnet run
+$ dotnet run
 ```
 4. The API will run on http://localhost:5000. You can now send request using Swagger or similar tools like Postman
 
